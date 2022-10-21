@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Coca Cola Freestyle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class = "logo-container">
+        <h1 class ="logo">Responsive Redesign Project</h1>
+    </div>
+
+    <div class = "nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+        <li><a class="nav-link" href="#usability">Usability</a></li>
+        <li><a class="nav-link" href="#accessibility">Accessibility</a></li>
+        <li><a class="nav-link" href="#wireframes">Wireframes</a></li>
+        <li><a class="nav-link" href="#styleguide">Style Guide</a></li>
+        <li><a class="nav-link" href="#styleguide">Prototypes</a></li>
+        <li><a class="nav-link" href="#redesign">Final Redesign</a></li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="title">
+        <h1 class="text-dark"> Metro Nails</h1>
+        <h3 class="text-dark h3"> Responsive Redesign Project </h3>
+    </div>
+
+    <div id="overview" class="intro">
+        <p> For this project, I practiced the workflow of redesigning a website for a local Providence nail salon, Metro Nails, <br> because it appeared outdated and had significant usability issues.</p>
+        <div class="imageRow">
+            <img src="images/metro1.png" alt = "metro nails images" style="height: auto; width:40rem">
+            <img src="images/metro2.png" alt = "metro nails images" style="height: auto; width:40rem">
+            <img src="images/metro3.png" alt = "metro nails images" style="height: auto; width:40rem">
+        </div>
+        <a href="https://metronails.webs.com/">Metro Nails Site</a>
+        
+        
+    </div>
+
+    <div id="usability" class="container-fluid " background=" white">
+        <h2>Identifying Usability Problems</h2>
+        <p> I assessed the usability of this website in terms of usability (e.g., including efficiency), learnability, and memorability, and  its conceptual model. <br>Here are the problems I identified:
+        </p>
+        <ol type="">
+            <ul> <li>Does not follow modern real-world conventions for nail salon websites (ex: no booking options)
+            </li> </ul>  
+            <ul> <li>There is a lack of the brand's identity
+            </li> </ul> 
+            <ul> <li>Nav-bar doesn’t link to the most valuable information options for users
+            </li> </ul>  
+            <ul> <li>Information hierarchy does not follow a natural and logical order
+            </li> </ul> 
+            <ul> <li>There is information that is irrelevant and repeated (ex: links to review sites)
+            </li> </ul> 
+            <ul> <li>The images on the bottom are poorly laid-out and appear outdated
+            </li> </ul> 
+            <ul> <li>Font styles and color vary too much throughout the page in an unclear way
+            </li> </ul>
+       
+          </ol>
+        
+    </div>
+
+    <div id="accessibility" class="container-fluid " background=" white">
+        <h2>Accessibility Issues</h2>
+        <p> In addition to analyzing the website on the aforementioned usability guidelines, I used WebAIM WAVE to detect accessibility problems:
+        </p>
+        <ol type="">
+            <ul> <li>Several areas of very low contrast between background and text
+            </li> </ul>  
+            <ul> <li>Lack of alt-text for images
+       
+          </ol>
+        
+    </div>
+    
+    <div id="wireframes" class="container-fluid">
+        <h2>Low-fidelity Wireframing</h2>
+        <p> I created wireframes to solve the problems I identified. The mobile and tablet are the same because I wanted a seamless experience between the two smaller screen sizes.
+        </p>
+        <div class="imageRow2">
+            <p>LAPTOP</p>
+            <img src="images/Lofi-1.jpg" alt = "laptop Low-fidelity" style="height: auto; width: 40rem">
+            <br>
+            <p>TABLET</p>
+            <img src="images/Lofi-2.jpg" alt = "ipad Low-fidelity" style="height: auto; width: 20rem">
+            <br>
+            <p>PHONE</p>
+            <img src="images/Lofi-3.jpg" alt = "phone Low-fidelity" style="height: auto; width: 20rem">
+        </div>
+    </div>
+
+    <div id="styleguide" class="container-fluid">
+        <h2>Visual Design Style Guide</h2>
+        <p> I created a create a visual design style guide in Figma that displays the main colors, typography, and reusable components’ different states.
+        </p>
+        <div class="imageRow2">
+            <img src="images/styleguide.png" alt = "style guide" style="height: auto; width: 40rem">
+        </div>
+    </div>
+
+    <div id="prototypes" class="container-fluid">
+        <h2>High-Fidelity Prototypes</h2>
+        <p> Using Figma, I created a total of 3 high-fidelity prototypes of the salon's home page, one for desktop, tablet, and mobile.
+        </p>
+        <div class="imageRow2">
+            <p>LAPTOP</p>
+            <img src="images/laptop.png" alt = "high-fidelity laptop" style="height: auto; width: 50rem">
+            <br>
+            <p>TABLET</p>
+            <img src="images/tablet.png" alt = "high-fidelity tablet" style="height: auto; width: 50rem">
+            <br>
+            <p>PHONE</p>
+            <img src="images/phone.png" alt = "high-fidelity phone" style="height: auto; width: 50rem">
+        </div>
+    </div>
+
+    <div id="redesign" class="container-fluid">
+        <h2>Responsive Redesign</h2>
+        <p> Using the final high-fidelity prototypes, I created the page using HTML and CSS! I was able to acheive my accent color appearing when hovering
+            over buttons and links. Also, my nav-bar collapses into a hamburger menu icon when the screen size gets smaller. The text also descreases in sizer for smaller screen sizes,
+            and the contents dispalyed in rows shifts to being displayed in columns. I used this Youtube tutorial to help me with my code: 
+        </p>
+        <a href="https://www.youtube.com/watch?v=oYRda7UtuhA">Easy Tutorial's video</a>
+        <div class="imageRow2">
+            <a href="https://tiredcheetah888.github.io/Responsive-Redesign/">Link to my page</a>
+            <img src="images/page1.png" alt = "page redesign" style="height: auto; width: 40rem">
+            <br>
+            <img src="images/page2.png" alt = "page redesign" style="height: auto; width: 40rem">
+            <br>
+            <img src="images/page3.png" alt = "page redesign" style="height: auto; width: 40rem">
+        </div>
+    </div>
+
+</body>
+</html>
